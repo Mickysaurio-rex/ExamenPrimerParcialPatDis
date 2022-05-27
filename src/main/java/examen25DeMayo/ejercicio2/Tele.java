@@ -111,9 +111,11 @@ public class Tele implements ITele{
         System.out.println("Tamano del televisor: " + pulgadas + " pulgadas");
         System.out.println("Resolucion: " + resolucion);
         System.out.println("Tiene puerto HDMI: " + puertoHdmi);
-        System.out.println("Puerto serial: " + serial);
         System.out.println("Puertos USB: " + usb);
         System.out.println("Tiene control: " + control);
+        System.out.println("Tiene Bluetooth: " + bluetooth);
+        System.out.println("Puerto serial: " + serial);
         System.out.println();
+
     }
 }
